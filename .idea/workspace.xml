@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c82279c-ff97-4f26-98b0-fa61d56e0cc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/rowkey/pje/datatrans/rpc/hessian/HessianTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4c82279c-ff97-4f26-98b0-fa61d56e0cc8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -519,7 +516,7 @@
       <option name="presentableId" value="Default" />
       <updated>1501824914133</updated>
       <workItem from="1501824915490" duration="2027000" />
-      <workItem from="1501837341554" duration="96000" />
+      <workItem from="1501837341554" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Enhancement: mv package">
       <created>1501826580859</created>
@@ -532,7 +529,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2123000" />
+    <option name="totallyTimeSpent" value="2381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
