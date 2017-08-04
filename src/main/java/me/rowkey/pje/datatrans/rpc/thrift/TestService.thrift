@@ -1,4 +1,4 @@
-namespace java me.rowkey.datatrans.rpc.thrift
+namespace java me.rowkey.pje.datatrans.rpc.thrift
 
 typedef i32 int
 service TestService

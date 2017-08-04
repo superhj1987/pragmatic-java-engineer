@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "me.rowkey.datatrans.rpc.proto";
+option java_package = "me.rowkey.pje.datatrans.rpc.proto";
 option java_outer_classname = "TestUserProto";
 
 message TestUser

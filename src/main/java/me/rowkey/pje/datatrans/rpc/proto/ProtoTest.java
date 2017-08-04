@@ -1,4 +1,4 @@
-package me.rowkey.datatrans.rpc.proto;
+package me.rowkey.pje.datatrans.rpc.proto;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 

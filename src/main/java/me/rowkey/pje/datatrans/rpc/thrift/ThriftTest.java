@@ -1,4 +1,4 @@
-package me.rowkey.datatrans.rpc.thrift;
+package me.rowkey.pje.datatrans.rpc.thrift;
 
 import org.apache.thrift.TException;
 import org.apache.thrift.TProcessor;
