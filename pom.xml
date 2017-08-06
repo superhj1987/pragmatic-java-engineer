@@ -7,7 +7,7 @@
     <groupId>me.rowkey</groupId>
     <artifactId>pragmatic-java-engineer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    
+
     <name>pragmatic-java-engineer</name>
     <description></description>
     <url>https://github.com/superhj1987/pragmatic-java-engineer</url>
@@ -30,8 +30,8 @@
     <properties>
         <spring.version>4.0.7.RELEASE</spring.version>
         <spring.amqp.version>1.2.0.RELEASE</spring.amqp.version>
-        <configuration.source>1.7</configuration.source>
-        <configuration.target>1.7</configuration.target>
+        <configuration.source>1.8</configuration.source>
+        <configuration.target>1.8</configuration.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -97,7 +97,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
-             <version>1.6.6</version>
+            <version>1.6.6</version>
         </dependency>
 
         <dependency>
@@ -248,6 +248,26 @@
                     <artifactId>log4j</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.9</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.35</version>
         </dependency>
 
     </dependencies>
