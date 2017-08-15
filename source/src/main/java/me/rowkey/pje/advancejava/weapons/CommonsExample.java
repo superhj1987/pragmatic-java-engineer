@@ -1,6 +1,10 @@
-package me.rowkey.pje.javaadvance.weapons;
+package me.rowkey.pje.advancejava.weapons;
 
 import com.google.common.collect.Lists;
+import me.rowkey.pje.common.meta.TestUser;
+import me.rowkey.pje.common.meta.User;
+import org.apache.commons.beanutils.BeanUtilsBean;
+import org.apache.commons.beanutils.BeanUtilsBean2;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.OrderedMap;
 import org.apache.commons.collections4.map.LinkedMap;
@@ -27,9 +31,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by Bryant.Hang on 2017/8/6.
+ * Apache Commons实例
  */
-public class CommonsTest {
+public class CommonsExample {
     public static void collections() {
         List<String> list = Lists.newArrayList();
         List<String> list2 = Lists.newArrayList();
@@ -48,7 +52,7 @@ public class CommonsTest {
         map.nextKey("1");
     }
 
-    public void io() throws IOException {
+    public static void io() throws IOException {
         File file = new File("/data/data.txt");
         List lines = FileUtils.readLines(file, "UTF-8"); //读取成字符串结合
         System.out.println(lines);
@@ -68,7 +72,7 @@ public class CommonsTest {
         FileSystemUtils.freeSpaceKb();
     }
 
-    public void lang() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+    public static void lang() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         String[] strs = new String[]{"1", "4", "2"};
         ArrayUtils.addAll(strs, "3");
 
@@ -91,5 +95,17 @@ public class CommonsTest {
 
         DateUtils.truncate(new Date(), Calendar.HOUR);
         DateFormatUtils.format(new Date(), "yyyyMMdd");
+    }
+
+    public static void beanUtils() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException, InstantiationException {
+        BeanUtilsBean beanUtilsBean = new BeanUtilsBean2();
+        beanUtilsBean.getConvertUtils().register(false, false, 0);//错误不抛出异常、不使用Null做默认值，数组的默认大小为0
+
+        User user = new User();
+        user.setName("test");
+        TestUser testUser = new TestUser();
+
+        beanUtilsBean.copyProperties(testUser, user);
+        System.out.println(testUser);
     }
 }

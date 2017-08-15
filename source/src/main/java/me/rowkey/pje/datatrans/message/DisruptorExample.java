@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-public class TestDisruptor {
+public class DisruptorExample {
     public void test() throws Exception {
         TestEventFactory factory = new TestEventFactory();
 

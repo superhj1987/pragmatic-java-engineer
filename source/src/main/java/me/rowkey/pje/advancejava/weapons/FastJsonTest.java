@@ -1,4 +1,4 @@
-package me.rowkey.pje.javaadvance.weapons;
+package me.rowkey.pje.advancejava.weapons;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

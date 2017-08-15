@@ -1,4 +1,4 @@
-package me.rowkey.pje.javaadvance.newjava;
+package me.rowkey.pje.advancejava.newjava;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ import java.rmi.AccessException;
 /**
  * Created by Bryant.Hang on 2017/8/6.
  */
-public class Java7Test {
+public class Java7Example {
     public static void main(String[] args) throws IOException {
         try {
             try (BufferedReader br = new BufferedReader(new FileReader(""))) {

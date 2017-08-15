@@ -1,4 +1,4 @@
-package me.rowkey.pje.javaadvance.weapons;
+package me.rowkey.pje.advancejava.weapons;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * Created by Bryant.Hang on 2017/8/6.
  */
-public class JodaTimeTest {
+public class JodaTimeExample {
     public static void main(String[] args) {
         DateTime dateTime = new DateTime(2017, 6, 21, 18, 00, 0); //2017.06.21 18:00:00
         System.out.println(dateTime.toString("yyyy-MM-dd"));

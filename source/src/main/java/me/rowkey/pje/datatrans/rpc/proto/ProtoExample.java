@@ -5,7 +5,7 @@ import com.google.protobuf.InvalidProtocolBufferException;
 /**
  * Created by Bryant.Hang on 2017/8/4.
  */
-public class ProtoTest {
+public class ProtoExample {
     public static void main(String[] args) throws InvalidProtocolBufferException {
         TestUserProto.TestUser testUser =
                 TestUserProto.TestUser.newBuilder()

@@ -20,7 +20,7 @@ import java.util.concurrent.Executors;
 /**
  * Created by Bryant.Hang on 2017/8/5.
  */
-public class KafkaTest {
+public class KafkaExample {
     public void producer() {
         Properties props = new Properties();
         props.put("metadata.broker.list", "localhost:9092");

@@ -1,4 +1,4 @@
-package me.rowkey.pje.peoject;
+package me.rowkey.pje.project;
 
 import org.junit.*;
 import org.junit.runner.RunWith;

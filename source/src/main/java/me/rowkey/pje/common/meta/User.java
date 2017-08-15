@@ -2,10 +2,8 @@ package me.rowkey.pje.common.meta;
 
 import java.io.Serializable;
 
-/**
- * Created by Bryant.Hang on 2017/8/6.
- */
 public class User implements Serializable {
+
     private String name;
 
     private int age;
@@ -13,6 +11,8 @@ public class User implements Serializable {
     private String gender;
 
     private String nickName;
+
+    private Address address;
 
     public String getName() {
         return name;
@@ -44,5 +44,13 @@ public class User implements Serializable {
 
     public void setNickName(String nickName) {
         this.nickName = nickName;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }

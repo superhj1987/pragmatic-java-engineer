@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by Bryant.Hang on 2017/5/9.
+ * 基于LinkedHashMap的LRU缓存实现
  */
 public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 

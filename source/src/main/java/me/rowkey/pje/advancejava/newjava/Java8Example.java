@@ -1,4 +1,4 @@
-package me.rowkey.pje.javaadvance.newjava;
+package me.rowkey.pje.advancejava.newjava;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutionException;
 /**
  * Created by Bryant.Hang on 2017/8/6.
  */
-public class Java8Test {
+public class Java8Example {
     public static int cal(int loop) {
         while (loop-- > 0) {
             try {

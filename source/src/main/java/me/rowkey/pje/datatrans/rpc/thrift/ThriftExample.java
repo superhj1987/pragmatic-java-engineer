@@ -14,8 +14,8 @@ import java.io.IOException;
 /**
  * Created by Bryant.Hang on 2017/8/4.
  */
-public class ThriftTest {
-    public static void main(String[] args){
+public class ThriftExample {
+    public static void testSerialize() {
         TestUser user = new TestUser();
         user.setMobile("xxx");
         user.setName("xxx");
@@ -24,7 +24,7 @@ public class ThriftTest {
             user.write(new TBinaryProtocol(new TIOStreamTransport(bos)));
         } catch (TException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 bos.close();
             } catch (IOException e) {
@@ -39,7 +39,7 @@ public class ThriftTest {
             user.read(new TBinaryProtocol(new TIOStreamTransport(bis)));
         } catch (TException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 bis.close();
             } catch (IOException e) {
@@ -48,7 +48,7 @@ public class ThriftTest {
         }
     }
 
-    public void testRpcServer() throws TTransportException {
+    public static void testRpcServer() throws TTransportException {
         TProcessor tprocessor = new TestService.Processor<TestService.Iface>(new TestServiceImpl());
 
         TServerSocket serverTransport = new TServerSocket(8088);
@@ -61,7 +61,7 @@ public class ThriftTest {
         server.serve();
     }
 
-    public void testRpcClient() {
+    public static void testRpcClient() {
         TTransport transport = new TSocket("localhost", 8088, 3000);
 
         TestService.Client testService =
