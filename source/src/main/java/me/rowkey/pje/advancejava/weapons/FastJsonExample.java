@@ -10,7 +10,8 @@ import me.rowkey.pje.common.meta.User;
 /**
  * Created by Bryant.Hang on 2017/8/6.
  */
-public class FastJsonTest {
+public class FastJsonExample {
+
     public static void main(String[] args) {
         User user = new User();
         user.setName("testUser");
