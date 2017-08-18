@@ -1,5 +1,9 @@
 package me.rowkey.pje.advancejava.newjava;
 
+import me.rowkey.pje.common.meta.TestUser;
+import me.rowkey.pje.common.meta.User;
+
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
@@ -19,7 +23,7 @@ public class Java8Example {
         return 100;
     }
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void completableFuture() throws ExecutionException, InterruptedException {
         CompletableFuture.supplyAsync(() ->
                 cal(10))
                 .thenCompose((i) -> CompletableFuture.supplyAsync(() -> cal(i)))
@@ -27,5 +31,31 @@ public class Java8Example {
                 .thenApply((str) -> "result : " + str)
                 .thenAccept(System.out::println)
                 .get();
+    }
+
+    public static void main(String[] args) {
+
+        User user = new User();
+        user.setName("testUser");
+
+        Optional<User> optional = Optional.of(user);
+        user = optional.orElse(new User());
+        user = optional.orElseThrow(RuntimeException::new);
+        user = optional.orElseGet(User::new);
+
+        Optional<TestUser> testUserOptional =
+                optional.filter(u -> u.getName() != null)
+                        .map(u -> {
+                            TestUser testUser = new TestUser();
+                            testUser.setName(u.getName());
+                            return testUser;
+                        });
+
+        Optional<User> userOptional = testUserOptional.flatMap(tu -> {
+            User curUser = new User();
+            curUser.setName(tu.getName());
+
+            return Optional.of(curUser);
+        });
     }
 }

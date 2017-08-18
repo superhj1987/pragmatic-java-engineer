@@ -24,6 +24,20 @@ public class GuavaExample {
         if (optional.isPresent()) {
             System.out.println(optional.get());
         }
+        str = optional.or("default string");
+        str = optional.or(new Supplier<String>() {
+            @Override
+            public String get() {
+                return "default string";
+            }
+        });
+        str = optional.orNull();
+        optional.transform(new Function<String, Object>() {
+            @Override
+            public Object apply(String input) {
+                return "transformed string";
+            }
+        });
 
         str = MoreObjects.firstNonNull(str, "");
 
