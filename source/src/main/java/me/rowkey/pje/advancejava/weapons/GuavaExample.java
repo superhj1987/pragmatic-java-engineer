@@ -108,7 +108,23 @@ public class GuavaExample {
         EventBus eventBus = new EventBus();
         eventBus.register(new EventBusListener());
 
-        eventBus.post(new ChangeEvent("a event"));
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                eventBus.post(new ChangeEvent("a event"));
+            }
+        }).start();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                eventBus.post(new ChangeEvent("b event"));
+            }
+        }).start();
+        eventBus.post("a event");
+    }
+
+    public static void main(String[] args) {
+        eventBus();
     }
 }
 
@@ -117,6 +133,11 @@ class EventBusListener {
     @Subscribe
     public void recordCustomerChange(ChangeEvent e) {
         System.out.println(e.getSource());
+    }
+
+    @Subscribe
+    public void recordStringChange(String str) {
+        System.out.println("get string event " + str);
     }
 }
 

@@ -3,10 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.0.RELEASE</version>
+    </parent>
+
 
     <groupId>me.rowkey</groupId>
     <artifactId>pragmatic-java-engineer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <name>pragmatic-java-engineer</name>
     <description></description>
@@ -28,8 +35,8 @@
     </repositories>
 
     <properties>
-        <spring.version>4.0.7.RELEASE</spring.version>
-        <spring.amqp.version>1.2.0.RELEASE</spring.amqp.version>
+        <spring.version>4.3.7.RELEASE</spring.version>
+        <spring.amqp.version>1.7.3.RELEASE</spring.amqp.version>
         <configuration.source>1.8</configuration.source>
         <configuration.target>1.8</configuration.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -89,6 +96,17 @@
         </dependency>
 
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>1.6.2</version>
@@ -104,12 +122,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
             <version>1.6.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.0.6</version>
         </dependency>
 
         <dependency>
@@ -293,7 +305,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>2.6.3</version>
+            <version>2.9.0</version>
         </dependency>
 
         <dependency>
@@ -349,6 +361,18 @@
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>guava</artifactId>
             <version>2.5.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.retry/spring-retry -->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+            <version>1.2.1.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
     </dependencies>
