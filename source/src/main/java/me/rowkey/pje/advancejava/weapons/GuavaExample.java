@@ -5,6 +5,7 @@ import com.google.common.collect.*;
 import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.Subscribe;
 import com.google.common.util.concurrent.*;
+import me.rowkey.pje.common.meta.User;
 
 import javax.swing.event.ChangeEvent;
 import java.util.concurrent.Callable;
@@ -55,6 +56,14 @@ public class GuavaExample {
                 .split("1;2;3;4");
 
         Preconditions.checkArgument(!Strings.isNullOrEmpty(str), "user null error");
+
+        User user = new User();
+        User user1 = new User();
+
+        ComparisonChain.start()
+                .compare(user.getName(), user1.getName())
+                .compare(user.getAge(), user1.getAge())
+                .result();
     }
 
     public static void collection() {
