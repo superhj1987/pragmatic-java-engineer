@@ -405,6 +405,29 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.google.protobuf.tools</groupId>
+                <artifactId>maven-protoc-plugin</artifactId>
+                <version>0.3.2</version>
+                <executions>
+                    <execution>
+                        <id>generate-sources</id>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                        <phase>generate-sources</phase>
+                        <configuration>
+                            <protoSourceRoot>${basedir}/src/main/proto/</protoSourceRoot>
+                            <includes>
+                                <param>**/*.proto</param>
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <protocExecutable>/Users/BryantHang/Programming/server-software/protoc-3.3.0-osx-x86_64/bin/protoc</protocExecutable>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
