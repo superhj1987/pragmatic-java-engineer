@@ -11,6 +11,7 @@ import javax.swing.event.ChangeEvent;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
 
 /**
  * Guava使用示例
@@ -130,6 +131,24 @@ public class GuavaExample {
             }
         }).start();
         eventBus.post("a event");
+    }
+
+    /**
+     * RateLimiter限流
+     */
+    public static void rateLimiter() {
+        final RateLimiter rateLimiter = RateLimiter.create(2.0);
+        Executor executor = Executors.newFixedThreadPool(10);
+
+        IntStream.range(0, 10).forEach(value -> {
+            rateLimiter.acquire(); // 也许需要等待
+            executor.execute(new Runnable() {
+                @Override
+                public void run() {
+                    System.out.println(value);
+                }
+            });
+        });
     }
 
     public static void main(String[] args) {
