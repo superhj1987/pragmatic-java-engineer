@@ -8,8 +8,9 @@
 <img src="img/book.png" width="200"/>
 
 **购买方式**
-- [京东](https://item.jd.com/12325207.html)
+- [京东自营](https://item.jd.com/12325207.html)
 - [天猫旗舰店](https://detail.tmall.com/item.htm?id=567160971355)
+- [微店(签名版)](https://weidian.com/item.html?itemID=2259146189)
 
 目前互联网行业如火如荼，进入这个行业的技术人员也越来越多。对于研发来说，从工程角度主要分为：前端工程师、客户端工程师（又分为iOS和Android工程师）、后端工程师、算法工程师等职位。本书所说的Java工程师指的是以Java做为主要开发语言的后端工程师。
 
