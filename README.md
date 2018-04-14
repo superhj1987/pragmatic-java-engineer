@@ -4,14 +4,12 @@
 - [书中示例代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
-***梳理Java知识体系，沓实架构基础***
-
 <img src="img/book.png" width="200"/>
 
 ### 购买方式
 
 - [当当网](http://product.dangdang.com/25250535.html)
-- [京东自营](https://item.jd.com/12325207.html)
+- [京东](https://item.jd.com/12325207.html)
 
 ### 后续计划
 
