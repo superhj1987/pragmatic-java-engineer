@@ -7,7 +7,7 @@
 
 **已开源章节**
 
-> - [1.3 如何学习后端技术](server-tech/how-to-study.md)
+> - [1.3 如何学习后端技术](book/server-tech/how-to-study.md)
 
 ### 内容介绍
 
