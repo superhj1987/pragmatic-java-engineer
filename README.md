@@ -5,6 +5,10 @@
 - [示例代码](source)
 - [书籍勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
+**已开源章节**
+
+> - [1.3 如何学习后端技术](server-tech/how-to-study.md)
+
 ### 内容介绍
 
 目前互联网行业如火如荼，进入这个行业的技术人员也越来越多。对于研发来说，从工程角度主要分为：前端工程师、客户端工程师（又分为iOS和Android工程师）、后端工程师、算法工程师等职位。本书所说的Java工程师指的是以Java做为主要开发语言的后端工程师。
