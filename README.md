@@ -86,9 +86,9 @@
 - 补充RxJava的使用在Java开发利器中。
 - 补充Java10和Kotlin的部分到Java新版本特性。
 
-<img src="img/book.png" width="200"/>
-
 ### 购买方式
 
-- [当当网](http://product.dangdang.com/25250535.html)
 - [京东](https://item.jd.com/12325207.html)
+- [当当网](http://product.dangdang.com/25250535.html)
+
+<img src="img/book.png" width="400"/>
