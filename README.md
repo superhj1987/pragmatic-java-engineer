@@ -7,6 +7,7 @@
 
 **已开源章节**
 
+> - [1.2 Java后端技术概览](book/server-tech/server-tech-tree.md)
 > - [1.3 如何学习后端技术](book/server-tech/how-to-study.md)
 
 ### 内容介绍
@@ -83,7 +84,7 @@
 - 异步响应式Web框架会补充在开发框架一章，以Vert.x为主，Spring Flux为辅。
 - Redis加入新版本的特性，并补充如何使用Redis实现分布式锁。
 - Kafka加入最新版本的特性，尤其是Kafka Streams和Exactly one语义。
-- Elastissearch基于5.0版本更新。
+- Elasticsearch基于5.0版本更新。
 - 补充协程到并发编程中。
 - 补充Netty到网络编程中。
 - 使用Hystrix做资源隔离和限流会补充在Java开发利器中。
