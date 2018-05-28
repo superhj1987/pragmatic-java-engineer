@@ -94,6 +94,5 @@
 ### 购买方式
 
 - [京东](https://item.jd.com/12325207.html)
-- [当当网](http://product.dangdang.com/25250535.html)
 
-<img src="img/book.jpg" width="450"/>
+<img src="img/book.jpg" width="400"/>
