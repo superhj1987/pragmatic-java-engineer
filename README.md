@@ -7,8 +7,9 @@
 
 **已开源章节**
 
-> - [1.2 Java后端技术概览](book/server-tech/server-tech-tree.md)
-> - [1.3 如何学习后端技术](book/server-tech/how-to-study.md)
+> - [1.1 后端基础设施](book/chapter1-servertech/server-basic.md)
+> - [1.2 Java后端技术概览](book/chapter1-servertech/server-tech-tree.md)
+> - [1.3 如何学习后端技术](book/chapter1-servertech/how-to-study.md)
 
 ### 内容介绍
 
