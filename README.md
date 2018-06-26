@@ -1,9 +1,9 @@
 《Java工程师修炼之道》
 --
 
-- [开源内容](book)
-- [示例代码](source)
-- [书籍勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
+- [书籍](book)
+- [代码](source)
+- [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
 **已开源章节**
 
