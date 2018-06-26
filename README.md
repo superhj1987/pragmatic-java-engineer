@@ -94,6 +94,6 @@
 - 补充RxJava的使用在Java开发利器中。
 - 补充Java10和Kotlin的部分到Java新版本特性。
 
-**购买链接**: [京东](https://item.jd.com/12325207.html)
+[**购买链接**](https://item.jd.com/12325207.html)
 
 <img src="img/book.jpg" width="400"/>
