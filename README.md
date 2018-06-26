@@ -1,9 +1,9 @@
 《Java工程师修炼之道》
 --
 
-- [开源内容](book)
-- [示例代码](source)
-- [书籍勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
+- [书籍](book)
+- [代码](source)
+- [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
 **已开源章节**
 
@@ -94,8 +94,6 @@
 - 补充RxJava的使用在Java开发利器中。
 - 补充Java10和Kotlin的部分到Java新版本特性。
 
-### 购买方式
-
-- [京东](https://item.jd.com/12325207.html)
+[**购买链接**](https://item.jd.com/12325207.html)
 
 <img src="img/book.jpg" width="400"/>
