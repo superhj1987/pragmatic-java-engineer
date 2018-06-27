@@ -5,6 +5,8 @@
 - [代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
+[**购买链接**](https://item.jd.com/12325207.html)
+
 **已开源章节**
 
 > - [1.1 后端基础设施](book/chapter1-servertech/server-basic.md)
@@ -93,5 +95,3 @@
 - 使用Hystrix做资源隔离和限流会补充在Java开发利器中。
 - 补充RxJava的使用在Java开发利器中。
 - 补充Java10和Kotlin的部分到Java新版本特性。
-
-[**购买链接**](https://item.jd.com/12325207.html)
