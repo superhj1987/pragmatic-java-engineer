@@ -100,11 +100,11 @@
 
 如果在阅读过程中发现错误的地方，请提交到此网址：<https://github.com/superhj1987/pragmatic-java-engineer/issues>。
 
-![](media/15136788981457.jpg)
+![](images/issues.jpg)
 
 同时，请随时注意勘误信息的发布：<https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes>。
 
-![](media/15136789308224.jpg)
+![](images/mistakes.jpg)
 
 ## 致谢
 
