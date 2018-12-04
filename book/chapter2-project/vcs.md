@@ -67,7 +67,7 @@ SVN是前几年用的最为普遍的一个VCS工具，采用了分支管理系�
     
 1. 删除文件
 
-    ````
+    ```
     svn delete path -m “delete test fle“
     svn delete [file]
     svn ci -m [message]
