@@ -13,6 +13,7 @@
 > - [1.2 Java后端技术概览](book/chapter1-servertech/server-tech-tree.md)
 > - [1.3 如何学习后端技术](book/chapter1-servertech/how-to-study.md)
 > - [2.1 项目构建](book/chapter2-project/build.md)
+> - [2.2 代码版本控制](book/chapter2-project/vcs.md)
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
 > - [附录F: 架构简明指南](book/appendix/arch-usage.md)
 
