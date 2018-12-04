@@ -57,7 +57,7 @@
 
 * [附录A: 代码构建常用命令](appendix/build-cmd.md)
 
-* [附录B: Git使用手册](appendix/git-usage.md)
+* [附录B: Git常用命令](appendix/git-usage.md)
 
 * [附录C: MySQL常用命令](appendix/mysql-usage.md)
 
