@@ -17,6 +17,7 @@
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
 > - [附录A: 附录A: 代码构建常用命令](book/appendix/build-cmd.md)
 > - [附录B: 附录B: Git常用命令](book/appendix/git-usage.md)
+> - [附录E: Java调优常用命令](book/appendix/java-profile.md)
 > - [附录F: 架构简明指南](book/appendix/arch-usage.md)
 
 [**购买链接**](https://item.jd.com/12325207.html)
