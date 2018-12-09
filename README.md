@@ -13,12 +13,15 @@
 > - [1.2 Java后端技术概览](book/chapter1-servertech/server-tech-tree.md)
 > - [1.3 如何学习后端技术](book/chapter1-servertech/how-to-study.md)
 > - [2.1 项目构建](book/chapter2-project/build.md)
+> - [2.2 代码版本控制](book/chapter2-project/vcs.md)
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
+> - [附录A: 代码构建常用命令](book/appendix/build-cmd.md)
+> - [附录B: Git常用命令](book/appendix/git-usage.md)
+> - [附录E: Java调优常用命令](book/appendix/java-profile.md)
 > - [附录F 如何应对在线故障](book/appendix/online-debug.md)
 > - [附录G 架构简明指南](book/appendix/arch-usage.md)
 
 [**购买链接**](https://item.jd.com/12325207.html)
-
 
 ### 后续计划
 
