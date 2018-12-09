@@ -2,6 +2,8 @@
 
 ## Maven常用命令
 
+Maven版本：3.3.9
+
 - 清除
 
     `mvn -N clean`
@@ -69,6 +71,8 @@
 此外，可以使用`-q`参数使Maven的日志输出只包含错误信息。
 
 ## Gradle常用命令
+
+Gradle版本：2.4
 
 - 执行特定的task
 
