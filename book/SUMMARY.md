@@ -49,6 +49,7 @@
     - [8.1 调优准备](chapter8-profile/ready.md)
     - [8.2 性能分析](chapter8-profile/analysis.md)
     - [8.3 性能调优](chapter8-profile/chapter8-profile.md)
+    - [8.4 总结](chapter8-profile/end.md)
 
 * [第九章 安全技术](chapter9-security/README.md)
     - [9.1 Java加密](chapter9-security/java-encrypt.md)
@@ -65,4 +66,6 @@
 
 * [附录E: Java调优常用命令](appendix/java-profile.md)
 
-* [附录F: 架构简明指南](appendix/arch-usage.md)
+* [附录F: 如何应对在线故障](appendix/online-debug.md)
+
+* [附录G: 架构简明指南](appendix/arch-usage.md)
