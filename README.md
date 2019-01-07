@@ -14,6 +14,7 @@
 > - [1.3 如何学习后端技术](book/chapter1-servertech/how-to-study.md)
 > - [2.1 项目构建](book/chapter2-project/build.md)
 > - [2.2 代码版本控制](book/chapter2-project/vcs.md)
+> - [2.3 代码质量保证](book/chapter2-project/quality.md)
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
 > - [附录A: 代码构建常用命令](book/appendix/build-cmd.md)
 > - [附录B: Git常用命令](book/appendix/git-usage.md)
