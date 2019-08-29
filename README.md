@@ -15,6 +15,8 @@
 > - [2.1 项目构建](book/chapter2-project/build.md)
 > - [2.2 代码版本控制](book/chapter2-project/vcs.md)
 > - [2.3 代码质量保证](book/chapter2-project/quality.md)
+> - [3.3 日志](book/chapter3-framework/log.md)
+> - [4.3 使用Spring Boot快速开发](book/chapter4-spring/spring-boot.md)
 > - [5.3 缓存](book/chapter5-datastore/cache.md)
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
 > - [附录A: 代码构建常用命令](book/appendix/build-cmd.md)
