@@ -165,7 +165,7 @@
 #-XX:+PrintCompilation #输出JIT编译情况，慎用
 -XX:+TieredCompilation #启用多层编译，JDK8默认开启
 -XX:CICompilerCount=4 #编译器数目增加
--XX:-UseBiasedLocking #取消偏向锁。偏向锁会触发进入Safepoint，引起停顿，因此高并发应用建议取消偏向锁。
+-XX:-UseBiasedLocking #取消偏向锁。偏向锁会触发进入Safepoint，引起停顿，因此高并发应用建议取消偏向锁
 -XX:AutoBoxCacheMax=20000 #自动装箱的缓存数量，如int默认缓存为-128~127
 -Djava.security.egd=file:/dev/./urandom #替代默认的/dev/random阻塞生成因子
 -XX:+AlwaysPreTouch #启动时访问并置零内存页面，大堆时效果比较好
@@ -196,6 +196,8 @@
 -XX:GCTimeLimit=98 #GC占用时间超过多少抛出OutOfMemoryError
 -XX:GCHeapFreeLimit=2 #GC回收后小于百分之多少抛出OutO fMemoryError
 -Xloggc:/home/logs/gc.log #GC日志路径，重启后会被清空
+-XX:+PrintCommandLineFlags #将每次JVM启动的参数输出到stdout，以供追溯。
+-XX:-OmitStackTraceInFastThrow #对一些特定的异常类型（NullPointerException、ArithmeticException、ArrayIndexOutOfBoundsException、ArrayStoreException、ClassCastException）的Fast Throw优化，如果检测到在代码里某个位置连续多次抛出同一类型异常的话，会用Fast Throw方式来抛出异常，不带上异常栈信息。在连续抛出大量重复异常并且很难回溯前面完整栈信息时可以关闭此选项使得不会进行Fast Throw优化
 #-XX:+UseGCLogFileRotation #开启GC日志滚动输出
 #-XX:NumberOfGCLogFiles=100 #轮转日志数目最大为100,超过则覆盖
 #-XX:GCLogFileSize=100M #GC轮转日志最大尺寸100mb，超过则另起一个日志文件
