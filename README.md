@@ -18,6 +18,7 @@
 > - [3.3 日志](book/chapter3-framework/log.md)
 > - [4.3 使用Spring Boot快速开发](book/chapter4-spring/spring-boot.md)
 > - [5.3 缓存](book/chapter5-datastore/cache.md)
+> - [6.1 RESTful](book/chapter6-datatrans/rest.md)
 > - [8.1 调优准备](book/chapter8-profile/ready.md)
 > - [附录A: 代码构建常用命令](book/appendix/build-cmd.md)
 > - [附录B: Git常用命令](book/appendix/git-usage.md)
