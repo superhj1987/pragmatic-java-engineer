@@ -35,7 +35,7 @@
     </repositories>
 
     <properties>
-        <spring.version>4.3.18.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <spring.amqp.version>1.7.10.RELEASE</spring.amqp.version>
         <configuration.source>1.8</configuration.source>
         <configuration.target>1.8</configuration.target>
