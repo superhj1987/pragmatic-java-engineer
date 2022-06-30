@@ -36,7 +36,7 @@
 
     <properties>
         <spring.version>4.3.18.RELEASE</spring.version>
-        <spring.amqp.version>1.7.10.RELEASE</spring.amqp.version>
+        <spring.amqp.version>2.3.11</spring.amqp.version>
         <configuration.source>1.8</configuration.source>
         <configuration.target>1.8</configuration.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
