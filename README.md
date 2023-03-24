@@ -114,3 +114,7 @@
 > 一本好的技术书籍，不仅要仔细阅读、学习理解，还需要进行较多的实践，将所看所学进行应用，通过不断地实践，加深知识点印象，从而形成永久的记忆和技能。希望各位读者能够通过掌握书中的知识和技能，逐步成长为技术骨干和专家，从而创造更多的技术输出、产品输出，创造更多的财富。 
 >
 > -- **张小川，网易考拉海购架构师，供应链技术主管**
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=superhj1987/pragmatic-java-engineer&type=Date)](https://star-history.com/#superhj1987/pragmatic-java-engineer&Date)
