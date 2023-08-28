@@ -1,19 +1,17 @@
 《Java工程师修炼之道》
 --
 
+本书已全部开源，购买纸质书籍可至：<https://item.jd.com/12325207.html>
+
 <img src="img/book.png" width="180"/>
 
 - [书籍](book/SUMMARY.md)
 - [代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
-**已全部开源**
-
-[**购买链接**](https://item.jd.com/12325207.html)
-
 ### 内容介绍
 
-见 [**前言**](book/README.md)
+[**前言**](book/README.md)
 
 ### 后续计划
 
@@ -31,8 +29,6 @@
 - 使用Hystrix做资源隔离和限流会补充在Java开发利器中。
 - 补充RxJava的使用在Java开发利器中。
 - 补充Java10和Kotlin的部分到Java新版本特性。
-
-**也欢迎大家提交内容，以丰富此书。^_^**
 
 ## Star History
 
