@@ -8,3 +8,10 @@
 - 需要尽快恢复
 
 附录F给出了更为宽泛的应对在线故障的思路。
+
+## 学习资料
+
+- [《Linux服务器性能调整》](https://book.douban.com/subject/4027746/)
+- [《Java性能权威指南》](https://book.douban.com/subject/26740520/)
+- [《深入理解Java虚拟机(第二版)》](https://book.douban.com/subject/24722612/)
+

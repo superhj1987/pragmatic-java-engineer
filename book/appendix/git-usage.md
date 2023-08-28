@@ -87,10 +87,17 @@ Git的配置，分为三个级别：
 	ssh -T git@github.com #测试是否成功
 	
 	#使用ssh-agent管理密码，避免后续需要身份验证的地方需要输入密码
-	ssh-add -K private_key_path #添添加私钥到ssh-agent中，使用-K参数将密钥加入到密钥链中
+	ssh-add -K private_key_path #添添加私钥到ssh-agent中，使用-K参数将密钥加入到密钥链中（Mac OS特有参数）
 	ssh-add -l  #查看当前计算机中存储的密钥
 	ssh-add -d public_key_path #将对应的私钥从ssh-agent删除
 	```
+	
+1. 使用http/https协议访问Git仓库时缓存密码
+
+    ```
+    # 默认不缓存;cache缓存在内存中，默认15分钟失效；store,明文存储在磁盘上，永不过期；osxkeychain，Mac OS特有，加密存储在用户钥匙串中，永不过期；winstore和manager是Windows下特有，取决于安装的是git-credential-winstore/git-credential-manager（GitGUI自带）
+    git config --global credential.helper [cache|store|osxkeychain|winstore/manager]
+    ```
 
 ## 取得项目的Git仓库
 
@@ -179,7 +186,7 @@ Git的配置，分为三个级别：
 
 	```
 	git commit [file1] [file2] #提交会提示输入本次提交说明
-	git commit -m [messag] #直接附带提交说明
+	git commit -m [message] #直接附带提交说明，message用双引号包裹是单行信息，用单引号则可以提交多行信息
 	git commit --amend #修改最后一次提交 
 	git commit -v #提交时显示所有diff信息
 	git commit --amend -m [message] #使用一次新的commit，替代上一次提交,如果代码没有任何新变化，则用来改写上一次commit的提交信息
@@ -301,6 +308,7 @@ git branch #列出本地分支
 git branch -r #列出远端分支
 git branch -a #列出所有本地分支和远程分支
 git branch -v #查看各个分支最后一个提交对象的信息
+git branch -vv #使用两个v，额外显示本地分支和远程分支的追踪关系
 git branch --merge #查看已经合并到当前分支的分支
 git branch --no-merge #查看为合并到当前分支的分支
 

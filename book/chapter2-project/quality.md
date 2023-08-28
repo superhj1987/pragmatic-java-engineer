@@ -203,7 +203,7 @@ public class AppServiceImplTest {
         AppServiceImpl  service = new AppServiceImpl();
         service.setAppDao(mock);
         App app = service.getAppById(1);//调用测试方法
-        assertEquals(expectedApp, App); //断言测试结果
+        assertEquals(expectedApp, app); //断言测试结果
         
         Easymock.verify(mock); //验证Mock对象被调用
     }
@@ -353,7 +353,7 @@ PowerMock的工作过程和EasyMock类似，不同之处在于需要在类层次
 - 该方法能否用一个main方法就能直接运行。
 - 该方法的参数能否不依赖外部环境而进行自由模拟。
 
-对于一些将访问代码糅杂在业务逻辑里无法单元测试的方法，可以通过将需要的数据从上下文中抽离出来达到不依赖外部环境的目的，如：
+对于一些将访问代码（简单的顺序调用，一般需要和上下文打交道）和业务逻辑糅杂在一起、多线程、异步等很难进行单元测试的方法，可以使用谦卑对象模式，通过将需要的数据从上下文中抽离出来达到不依赖外部环境的目的，如：
 
 ```
 @Resource
@@ -368,12 +368,19 @@ public void methodA（）{
 可以重构为
 
 ```
-public void methodA（User u）{
-	….//业务逻辑
+public void methodA(){
+    User u = userDao.getById(1);
+    methodA_1(u);
+}
+
+public void methodA_1（User u）{
+
+    ….//业务逻辑
+
 }
 ```
 
-这样，可以自由模拟User数据，来对此方法做单元测试。
+这样，可以自由模拟User数据，来对抽离出的方法methodA_1做单元测试。
 
 此外，编写单元测试还需要注意：
 

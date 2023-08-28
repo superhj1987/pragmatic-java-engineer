@@ -24,7 +24,7 @@ Maven版本：3.3.9
     
 - 部署非Maven项目的jar包
 
-    `mvn deploy:deploy-file -DgroupId=[groupId] -DartifactId=[artifactId] -Dversion=[version] -Dpackaging=jar -Dfile=[jarFilePath]  -Durl=[repositoryUrl]`
+    `mvn deploy:deploy-file -DgroupId=[groupId] -DartifactId=[artifactId] -Dversion=[version] -Dpackaging=jar -Dfile=[jarFilePath]  -Durl=[repositoryUrl] -DrepositoryId=[repositoryId]`
     
 - 安装非Maven项目的jar包到本地
 

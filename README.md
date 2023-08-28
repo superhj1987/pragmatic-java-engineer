@@ -7,26 +7,7 @@
 - [代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
-**已开源章节**
-
-> - [1.1 后端基础设施](book/chapter1-servertech/server-basic.md)
-> - [1.2 Java后端技术概览](book/chapter1-servertech/server-tech-tree.md)
-> - [1.3 如何学习后端技术](book/chapter1-servertech/how-to-study.md)
-> - [2.1 项目构建](book/chapter2-project/build.md)
-> - [2.2 代码版本控制](book/chapter2-project/vcs.md)
-> - [2.3 代码质量保证](book/chapter2-project/quality.md)
-> - [3.3 日志](book/chapter3-framework/log.md)
-> - [4.3 使用Spring Boot快速开发](book/chapter4-spring/spring-boot.md)
-> - [5.3 缓存](book/chapter5-datastore/cache.md)
-> - [6.1 RESTful](book/chapter6-datatrans/rest.md)
-> - [6.2 远程过程调用-RPC](book/chapter6-datatrans/rpc.md)
-> - [8.1 调优准备](book/chapter8-profile/ready.md)
-> - [9.3 Web安全](book/chapter9-security/web-security.md)
-> - [附录A: 代码构建常用命令](book/appendix/build-cmd.md)
-> - [附录B: Git常用命令](book/appendix/git-usage.md)
-> - [附录E: Java调优常用命令](book/appendix/java-profile.md)
-> - [附录F 如何应对在线故障](book/appendix/online-debug.md)
-> - [附录G 架构简明指南](book/appendix/arch-usage.md)
+**已全部开源**
 
 [**购买链接**](https://item.jd.com/12325207.html)
 

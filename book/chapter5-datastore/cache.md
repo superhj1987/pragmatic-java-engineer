@@ -225,7 +225,7 @@ Object grabResutl = jedis.eval(REDIS_SCRIPT_GRAB_GIFT, Lists.newArrayList("test:
 
 其中，volatile-lru是3.0版本之前的默认淘汰策略，之后的版本默认策略改成了noeviction。
 
-为了配合LRU的淘汰策略，Redis的内部数据结构中有一个lru字段记录了对象最后一次被访问的时间。可以通过object idletime [key]来在不更新lru字段的情况下查看相应key的空闲时间。进一步的可以结合使用scan+object idletile [key]来查询哪些健长时间未被访问，以判定热点key和冷key。
+为了配合LRU的淘汰策略，Redis的内部数据结构中有一个lru字段记录了对象最后一次被访问的时间。可以通过object idletime [key]来在不更新lru字段的情况下查看相应key的空闲时间。进一步的可以结合使用scan+object idletime [key]来查询哪些健长时间未被访问，以判定热点key和冷key。
 
 这里需要注意的是Redis中为了节省内存占用使用了整数对象池（即共享整数对象），但当淘汰策略为LRU时，由于无法对对象池的同一个对象设置多个访问时间戳，因此不再会使用整数对象池。
 
