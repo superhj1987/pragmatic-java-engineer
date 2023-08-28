@@ -1,7 +1,7 @@
 《Java工程师修炼之道》
 --
 
-本书已全部开源，购买纸质书籍可至：<https://item.jd.com/12325207.html>
+购买纸质书籍可至：<https://item.jd.com/12325207.html>
 
 <img src="img/book.png" width="180"/>
 
