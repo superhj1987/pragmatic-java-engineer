@@ -5,7 +5,7 @@
 
 <img src="img/book.png" width="180"/>
 
-- [书籍](book/SUMMARY.md)
+- [书籍](https://rowkey-cn.gitbook.io/pragmatic-java-engineer/)
 - [代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
