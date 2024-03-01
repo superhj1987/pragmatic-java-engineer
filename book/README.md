@@ -55,3 +55,11 @@
 博客：https://rowkey.cn
 
 微博：https://weibo.com/superhj1987
+
+## 友情赞助
+
+友情赞助可扫码。^_^
+
+<img src="../img/wechatpay.png" width="180"/>
+
+<img src="../img/alipay.png" width="180"/>
