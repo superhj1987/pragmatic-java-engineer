@@ -58,8 +58,9 @@
 
 ## 友情赞助
 
-友情赞助可扫码。^_^
+友情赞助可扫码。
 
 <img src="../img/wechatpay.png" width="180"/>
+
 
 <img src="../img/alipay.png" width="180"/>
