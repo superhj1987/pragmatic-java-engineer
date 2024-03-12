@@ -9,12 +9,6 @@
 - [代码](source)
 - [勘误](https://github.com/superhj1987/pragmatic-java-engineer/wiki/Mistakes)
 
-线上已完全开源，友情赞助可扫码。
-
-<img src="img/wechatpay.png" width="180"/>
-
-<img src="img/alipay.png" width="180"/>
-
 ### 内容介绍
 
 [**前言**](book/README.md)
